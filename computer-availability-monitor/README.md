@@ -11,8 +11,7 @@ Last response:	last time device “checked in”
 
 These are the current attributes being reported but this can be configured to report on any available attribute, if required, limited only by the design of the current web page.
 
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
+——————————————————————————————————————————————————————
 This project requires the following:
 
 web service - built using apache web server with php installed to host local facing web site. 
@@ -21,7 +20,6 @@ mysql server and database - the data is uploaded to mysql
 
 method to run Python script on clients at regular intervals. This could be configured on the clients via a background service like cron, or be run via a management system/agent at regular intervals. 
 
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
+——————————————————————————————————————————————————————
 
 NOTE - This project is designed for being running within a local network and with appropriate security hardening configured, as required. Ensure that your servers are secure.
